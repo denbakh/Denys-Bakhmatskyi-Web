@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Web casino</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalizer -->
+    <link
+      href="
+        https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
+        "
+      rel="stylesheet"
+    />
+    <!-- </link> -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container container">
+        <a class="header-logo logo-link" href="./index.html"
+          ><span class="logo-web">web</span>casino</a
+        >
+
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link ani-hov current" href="">casino</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link ani-hov" href="">Win/Lose</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="address-list list">
+            <li class="address-item">
+              <a
+                class="header-contact link ani-hov"
+                href="mail:info@devcasino.com"
+                >info@devcasino.com</a
+              >
+            </li>
+            <li class="address-item">
+              <a class="header-contact link ani-hov" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button
+          type="button"
+          class="btn menu-btn ani-hov js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-svg" width="30" height="19">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="hero-container container">
+          <h1 class="hero-title">Online Casino Number One</h1>
+          <button class="hero-button btn ani-hov" type="button" data-modal-open>
+            Create account
+          </button>
+        </div>
+      </section>
+      <!-- about us -->
+      <section class="about-us">
+        <h2 class="wwd-title">About Us</h2>
+        <div class="about-container container">
+          <ul class="about-us-list list card-set list">
+            <li class="about-us-item card-set-item">
+              <div class="about-us-bg">
+                <svg class="about-us-svg" width="60" height="64">
+                  <use href="./images/icons.svg#antenna"></use>
+                </svg>
+              </div>
+              <h3 class="list-title">Strategy</h3>
+              <p class="list-text">
+                our strategy is to provide the most comfotable gambling 
+              </p>
+            </li>
+            <li class="about-us-item card-set-item">
+              <div class="about-us-bg">
+                <svg class="about-us-svg" width="60" height="64">
+                  <use href="./images/icons.svg#clock"></use>
+                </svg>
+              </div>
+              <h3 class="list-title">Punctuality</h3>
+              <p class="list-text">
+                Our payments is taken not more than 2 minutes, that allows users to play faster
+              </p>
+            </li>
+            <li class="about-us-item card-set-item">
+              <div class="about-us-bg">
+                <svg class="about-us-svg" width="60" height="64">
+                  <use href="./images/icons.svg#diagram"></use>
+                </svg>
+              </div>
+              <h3 class="list-title">Diligence</h3>
+              <p class="list-text">
+                We have open statistic of win/lose that provides customers safe way of gambling
+              </p>
+            </li>
+            <li class="about-us-item card-set-item">
+              <div class="about-us-bg">
+                <svg class="about-us-svg" width="60" height="64">
+                  <use href="./images/icons.svg#astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="list-title">Technologies</h3>
+              <p class="list-text">
+Our Technologies provide fair play to every customer because we use crypto chains to provide the most safe way of random 
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Our team -->
+      <section class="team">
+        <div class="team-container container">
+          <h2 class="team-title">Our Slots</h2>
+          <ul class="team-list list">
+            <li class="team-item">
+              <picture>
+                <img
+                  class="team-img"
+                  src="./images/dog.jpg"
+                  alt="big bass bonanza"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="team-textbox">
+                <h3 class="team-item-title">The Dog House</h3>
+                <p class="team-item-text">Pragmatic games</p>
+                <ul class="media-list list">
+                  <li class="media-item">
+                    <button
+                      class="team-media link ani-hov "
+                      type="button"
+                      data-first-gamemodal-open
+                    >
+                      <svg class="media-svg" width="16" height="16">
+                        <use href="./images/icons.svg#gamepad"></use>
+                      </svg>
+                    </button>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-item">
+              <picture>
+                <img
+                  class="team-img"
+                  src="./images/sugarRush.jpg"
+                  alt="ordinary man"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="team-textbox">
+                <h3 class="team-item-title">Sugar Rush</h3>
+                <p class="team-item-text">Pragmatic games</p>
+                <ul class="media-list list">
+                  <li class="media-item">
+                    <button
+                      class="team-media link ani-hov"
+                      type="button"
+                      data-second-gamemodal-open
+                    >
+                      <svg class="media-svg" width="16" height="16">
+                        <use href="./images/icons.svg#gamepad"></use>
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-item">
+              <picture>
+                <img
+                  class="team-img"
+                  src="./images/sweetBonanza.jpg"
+                  alt="girl with long hair"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="team-textbox">
+                <h3 class="team-item-title">Sweet Bonanza</h3>
+                <p class="team-item-text">Pragmatic Games</p>
+                <ul class="media-list list">
+                  <li class="media-item">
+                    <button
+                      class="team-media link ani-hov"
+                      type="button"
+                      data-third-gamemodal-open
+                    >
+                      <svg class="media-svg" width="16" height="16">
+                        <use href="./images/icons.svg#gamepad"></use>
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-item">
+              <picture>
+                <img
+                  class="team-img"
+                  src="./images/bigBamboo.jpg"
+                  alt="man smiling"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="team-textbox">
+                <h3 class="team-item-title">Big Bamboo</h3>
+                <p class="team-item-text">Pragmatic Games</p>
+                <ul class="media-list list">
+                  <li class="media-item">
+                    <button
+                      class="team-media link ani-hov"
+                      type="button"
+                      data-fourth-gamemodal-open
+                    >
+                      <svg class="media-svg" width="16" height="16">
+                        <use href="./images/icons.svg#gamepad"></use>
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container container">
+        <div class="footer-left footer-part">
+          <a class="footer-logo logo-link" href="./index.html">
+            <span class="logo-web">web</span>casino</a
+          >
+          <p class="footer-text">
+            Best slots in europe for 2023
+          </p>
+        </div>
+        <div class="footer-right footer-part">
+          <h3 class="footer-right-title">Social media</h3>
+          <ul class="footer-list list">
+            <li class="footer-item">
+              <a
+                class="footer-media link ani-hov"
+                href="https://www.instagram.com/1lilstreet/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="instagram link"
+              >
+                <svg class="footer-media-svg" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-media link ani-hov"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter link"
+              >
+                <svg class="footer-media-svg" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-media link ani-hov"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="facebook link"
+              >
+                <svg class="footer-media-svg" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-media link ani-hov"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="linkedin link"
+              >
+                <svg class="footer-media-svg" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="footer-subscribe footer-part"> -->
+        <form
+          class="footer-form footer-subscribe footer-part"
+          name="footer_form"
+        >
+          <p class="footer-form-title">Subscribe</p>
+          <div class="footer-group">
+            <label class="footer-form-label" for="footer_user_email">
+              <input
+                class="footer-form-field"
+                type="email"
+                id="footer_user_email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="footer-btn btn ani-hov" type="submit">
+              Subscribe
+              <svg class="footer-form-svg" width="24" height="20">
+                <use href="./images/icons.svg#telegram"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+        <!-- </div> -->
+      </div>
+    </footer>
+
+    <!-- modal wind  -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn ani-hov" type="button" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <strong class="modal-title"
+          >Create your account now</strong
+        >
+        <form class="modal-form" name="modal_form">
+          <!-- name field  -->
+          <label class="modal-form-label" for="user_name">Name</label>
+          <div class="modal-form-group">
+            <input
+              class="modal-form-field"
+              type="text"
+              id="user_name"
+              required
+              minlength="2"
+            />
+            <svg class="modal-form-icon" width="12" height="12">
+              <use href="./images/icons.svg#user"></use>
+            </svg>
+          </div>
+          <!-- telephone field  -->
+          <label class="modal-form-label" for="user_telephone">Phone</label>
+          <div class="modal-form-group">
+            <input
+              class="modal-form-field"
+              type="tel"
+              id="user_telephone"
+              required
+            />
+            <svg class="modal-form-icon" width="12" height="12">
+              <use href="./images/icons.svg#phone"></use>
+            </svg>
+          </div>
+          <!-- email field  -->
+          <label class="modal-form-label" for="user_email">Email</label>
+          <div class="modal-form-group">
+            <input
+              class="modal-form-field"
+              type="email"
+              id="user_email"
+              required
+            />
+            <svg class="modal-form-icon" width="12" height="12">
+              <use href="./images/icons.svg#mail"></use>
+            </svg>
+          </div>
+          <label class="modal-form-agreement" for="user_agreement">
+            <input
+              class="modal-form-checkbox visually-hidden"
+              type="checkbox"
+              name="user_agreement"
+              id="user_agreement"
+              required
+              data-modal-checkbox
+            />
+            <svg class="custom-checkbox" width="16" height="16">
+              <use
+                class="custom-checkbox-frame"
+                href="./images/icons.svg#checkbox"
+              ></use>
+              <use
+                class="custom-checkbox-check"
+                href="./images/icons.svg#check"
+              ></use>
+            </svg>
+            <span class="modal-form-desc">
+              I accept the terms and conditions of the
+              <a class="modal-form-link" href="" target="_blank"
+                >Privacy Policy</a
+              >
+            </span>
+          </label>
+          <button class="modal-form-btn btn ani-hov" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button type="button" class="menu-toggle js-close-menu">
+        <svg class="modal-icon" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li>
+          <a href="" class="menu-link link ani-hov">casino</a>
+        </li>
+        <!-- <li>
+          <a href="" class="menu-link link ani-hov">Portfolio</a>
+        </li> -->
+        <li>
+          <a href="" class="menu-link link ani-hov">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacts list">
+        <li>
+          <a href="tel:+110001111111" class="menu-contacts big-tel link ani-hov"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a href="mail:info@devcasino.com" class="menu-contacts link ani-hov"
+            >info@devcasino.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="menu-media-list list">
+        <li class="media-item">
+          <a
+            class="menu-media link ani-hov"
+            href="https://www.instagram.com/dexxter300/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram link"
+          >
+            <svg class="media-svg" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="media-item">
+          <a
+            class="menu-media link ani-hov"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter link"
+          >
+            <svg class="media-svg" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="media-item">
+          <a
+            class="menu-media link ani-hov"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="facebook link"
+          >
+            <svg class="media-svg" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="media-item">
+          <a
+            class="menu-media link ani-hov"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin link"
+          >
+            <svg class="media-svg" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- modal wind  -->
+    <div class="backdrop is-hidden" data-gamemodal>
+      <div class="modal">
+        <button class="modal-btn ani-hov" type="button" data-gamemodal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/game-modal.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
+  </body>
+</html>
